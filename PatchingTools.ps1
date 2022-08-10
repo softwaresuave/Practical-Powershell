@@ -7,7 +7,6 @@
     9/29/2021
 #>
 
-
 Write-Host "
 **AVAILABLE FUNCTIONS**
 1. Who's logged in
