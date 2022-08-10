@@ -2,7 +2,8 @@
 
 Welcome...
 
-This repository contains highly intelligent software. These tools are very powerful and cool to use.
+This repository contains highly intelligent software. <br/>
+These tools are very powerful and cool to use. <br/>
 These programs are meant to make your job easier, automating cumbersome processes.
 
 Be sure to enable scripting on your machine using the cmd: <br/> 
