@@ -18,7 +18,7 @@ Sua Sponte
 
 ## List of Scripts
 
-- Import-WLAN-Profiles
+- ExtractWirelessProfiles
 - SysAdmin-Toolkit
 - Patching-Tools
 - Report-Network-Status
