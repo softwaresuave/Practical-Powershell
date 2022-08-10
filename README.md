@@ -1,7 +1,8 @@
-# Powershell Playground - A variety of Powershell programs for System Administrators!
+# Powershell Playground - A variety of useful Powershell programs for System Administrators!
 
 Welcome...
 
+This repository contains highly intelligent software. These tools are very powerful and cool to use.
 These programs are meant to make your job easier, automating cumbersome processes.
 
 Be sure to enable scripting on your machine using the cmd: <br/> 
