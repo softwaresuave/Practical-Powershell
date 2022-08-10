@@ -1,8 +1,6 @@
 # PSSysadminToolkit - The Powershell Toolkit For System Administrators!
 
-Toolkit with a variety of powershell scripts that automate repetitive tasks
-
-Usage of scripts is at your own risk. Feedback from usage is encouraged. If you encounter a bug, or see an ehancement, please file an Issue. And, if you are saavy with Powershell, feel free to submit a Pull Request and take a crack at the fix/enhancement yourself!_
+Powershell scripts for sysadmins
 
 
 
