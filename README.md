@@ -24,3 +24,4 @@ Sua Sponte
 - Report-Network-Status
 - GUI (template)
 - thefuck
+- PowerCaffeine
