@@ -1,4 +1,6 @@
-﻿Add-Type -AssemblyName system.windows.forms
+#TEMPLATE FOR GUI
+
+Add-Type -AssemblyName system.windows.forms
 
 $main_form = New-Object system.windows.forms.form
 $main_form.Text = 'GUI for my Powershell script'
