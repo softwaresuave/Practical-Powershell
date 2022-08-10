@@ -19,9 +19,9 @@ Sua Sponte
 ## List of Scripts
 
 - ExtractWirelessProfiles
-- SysAdmin-Toolkit
-- Patching-Tools
-- Report-Network-Status
+- SysAdminToolkit
+- PatchingTools
+- ReportNetworkStatus
 - GUI (template)
 - thefuck
 - PowerCaffeine
