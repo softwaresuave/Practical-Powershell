@@ -2,7 +2,7 @@
 
 Welcome...
 
-This repository contains highly intelligent & powerful software. <br/>
+This repository contains powerful tools for sysadmins  <br/>
 
 They are meant to make your job easier, automating cumbersome processes.
 
