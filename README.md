@@ -9,7 +9,7 @@ They are meant to make your job easier, automating cumbersome processes.
 Be sure to enable scripting on your machine using the cmd: <br/> 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-<br/>
+SoftwareSuave = Powershell Prince
 <br/>
 
 SUA SPONTE
