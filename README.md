@@ -12,7 +12,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 <br/>
 <br/>
 
-Sua Sponte
+SUA SPONTE
 
 [Latin, Of his or her or its own will; voluntarily.]
 
