@@ -8,7 +8,7 @@ These POWERful tools are meant to make your job easier, automating cumbersome pr
 Most of these scripts are arragned to run on remote machines that have their computer name/ ip address included in a computers.txt file, which is defined by the $Computers variable. Be sure to check the path this variable is pointed to & computer names in the .txt file before executing. This .txt file cannot have trailing whitespace after the last hostname. 
 
 
-Be sure to enable scripting on your machine using the cmd: <br/> 
+Be sure to enable scripting on your machine by entering the below command in the PS console before execution: <br/> 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 
