@@ -5,7 +5,7 @@ Welcome... <br/>
 These POWERful tools are meant to make your job easier, automating cumbersome processes.
 
 
-To Execute - open Windows Powershell ISE as Administrator > open desired script > run and follow console prompts.
+TO EXECUTE  --  open Windows Powershell ISE as Administrator  >  open desired script  >  run and follow console prompts.
 
 
 Most of these scripts are designed to run on remote machines that have their computer name or ip address listed in a computers.txt file, which is defined by the $Computers variable. <br/>
