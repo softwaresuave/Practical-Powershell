@@ -8,7 +8,7 @@ To Execute - open Windows Powershell ISE as Administrator > open desired script 
 
 
 Most of these scripts are designed to run on remote machines that have their computer name or ip address listed in a computers.txt file, which is defined by the $Computers variable. <br/>
-Be sure to check the path of the computers.txt that this variable is pointed to as well as the computer names included in it. This .txt file cannot have trailing whitespace after the last hostname. 
+Ensure that both the path to the .txt that this variable is pointed to is valid as well as the computer names within it. The computers.txt file cannot have trailing whitespace after the last hostname that is listed. 
 
 
 Be sure to enable scripting on your machine by entering the below command in the PS console before execution: <br/> 
