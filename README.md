@@ -26,6 +26,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 - SysAdminToolkit
 - PatchingTools
 - ReportNetworkStatus
-- GUI (template)
+- gui (template)
 - thefuck
 - PowerCaffeine
