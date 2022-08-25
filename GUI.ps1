@@ -1,4 +1,4 @@
-#TEMPLATE FOR GUI
+#SiMPLE TEMPLATE FOR GUI
 
 Add-Type -AssemblyName system.windows.forms
 
