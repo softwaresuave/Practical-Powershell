@@ -1,4 +1,4 @@
-## The Powershell Playground contains a variety of Powershell programs for System Administrators!
+# The Powershell Playground contains a variety of Powershell programs for System Administrators!
 
 Welcome...
 
@@ -15,7 +15,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 <br/>
 
-SUA SPONTE
+###SUA SPONTE
 
 [Latin, Of his or her or its own will; voluntarily.]
 
