@@ -9,5 +9,5 @@
 
 Function oops {
     Undo-Transaction 
-}
+    }
 Set-Alias -Name fuck -Value oops 
