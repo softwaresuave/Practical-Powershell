@@ -12,12 +12,12 @@ Be sure to enable scripting on your machine using the cmd: <br/>
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 
-
 <br/>
 
 ### SUA SPONTE
 
 [Latin, Of his or her or its own will; voluntarily.]
+
 
 
 ## List of Scripts
