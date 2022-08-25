@@ -1,8 +1,8 @@
-# Powershell Playground - A variety of useful Powershell programs for System Administrators!
+## The Powershell Playground is a repo containing a variety of Powershell programs for System Administrators!
 
 Welcome...
 
-This repository contains powerful tools for sysadmins. They are meant to make your job easier, automating cumbersome processes.
+This repository contains powerful tools for sysadmins meant to make your job easier, automating cumbersome processes.
 
 
 Most of these scripts are arragned to run on remote machines that have their computer name/ ip address included in a computers.txt file, which is defined by the $Computers variable. Be sure to check the path & computer names before executing. This .txt file cannot have trailing whitespace after the last hostname. 
