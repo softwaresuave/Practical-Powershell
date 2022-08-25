@@ -89,7 +89,8 @@ switch ($input) {
         'Site' = $dc.Site
         'Global Catalog' = $dc.IsGlobalCatalog
         'FSMO Roles' = $dc.OperationMasterRoles -join ','
-        })}  
+        })
+	}  
     $domdc | Format-Table -AutoSize -Wrap
     Write-Host 'Total Number: '$dccount"" -ForegroundColor Yellow
     $ping=Read-Host "Do you want to test connectivity (ping) to these Domain Controllers? (Y/N)"
