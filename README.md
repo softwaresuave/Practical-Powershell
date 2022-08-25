@@ -13,7 +13,6 @@ Ensure that both the path to the .txt that this variable is pointed to is valid,
 <br/>
 <br/>
 <br/>
-<br/>
 Enable scripting on your machine by entering the below command in the PS console before execution: <br/> 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
