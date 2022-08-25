@@ -7,7 +7,8 @@ These POWERful tools are meant to make your job easier, automating cumbersome pr
 To Execute - open Windows Powershell ISE as Administrator > open desired script > run and follow console prompts.
 
 
-Most of these scripts are designed to run on the remote machines that have their computer name/ ip address included in a computers.txt file, which is defined by the $Computers variable. Be sure to check the path this variable is pointed to & computer names in the .txt file before executing. This .txt file cannot have trailing whitespace after the last hostname. 
+Most of these scripts are designed to run on the remote machines that have their computer name or ip address listed in a computers.txt file, which is defined by the $Computers variable. <br/>
+Be sure to check the path of the computers.txt that this variable is pointed to as well as the computer names included in it. This .txt file cannot have trailing whitespace after the last hostname. 
 
 
 Be sure to enable scripting on your machine by entering the below command in the PS console before execution: <br/> 
