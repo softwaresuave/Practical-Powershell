@@ -29,9 +29,10 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ## List of Scripts
 
 - ExtractWirelessProfiles
-- SysAdminToolkit
 - PatchingTools
+- PowerCaffeine
 - ReportNetworkStatus
+- SysAdminToolkit
+- TeamsFix
 - gui (template)
 - thefuck
-- PowerCaffeine
