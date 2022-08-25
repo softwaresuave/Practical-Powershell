@@ -7,8 +7,8 @@
     9/29/2021
 #>
 
-Write-Host "
-**AVAILABLE FUNCTIONS**
+Write-Host
+" **AVAILABLE FUNCTIONS**
 1. Who's logged in
 2. Application Checker
 3. Update Microsoft Defender (MPSIGSTUB)
