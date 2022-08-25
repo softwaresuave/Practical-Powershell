@@ -5,7 +5,7 @@ Welcome...
 This repository contains powerful tools for sysadmins. They are meant to make your job easier, automating cumbersome processes.
 
 
-Most of these scripts are arragned to run on remote machines in a computers.txt file, which is defined by the $Computers variable. Be sure to check this before executing.
+Most of these scripts are arragned to run on remote machines that have their computer name/ ip address included in a computers.txt file, which is defined by the $Computers variable. Be sure to check the path & computer names before executing. This .txt file cannot have trailing whitespace after the last hostname. 
 
 
 Be sure to enable scripting on your machine using the cmd: <br/> 
