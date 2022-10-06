@@ -1,7 +1,5 @@
 # The Powershell Playground contains a variety of Powershell programs for System Administrators!
 
-Welcome... 
-
 Tools for administrators to run various functions from a machine. Making your job easier, automating cumbersome processes.
 
 
