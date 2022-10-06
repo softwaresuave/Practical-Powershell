@@ -34,5 +34,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 - ReportNetworkStatus
 - SysAdminToolkit
 - TeamsFix
+- Wtools (workstation toolkit)
 - gui (template)
 - thefuck
