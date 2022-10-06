@@ -2,7 +2,7 @@
 
 Welcome... 
 
-These POWERful tools are meant to make your job easier, automating cumbersome processes.
+Tools for administrators to run various functions from a machine. Making your job easier, automating cumbersome processes.
 
 
 TO EXECUTE  --  open Windows Powershell ISE as Administrator  >  open desired script  >  run and follow console prompts.
