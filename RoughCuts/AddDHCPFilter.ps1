@@ -1,0 +1,1 @@
+Import-Csv E:\DHCPAllowScript\computers.csv | foreach{netsh dhcp server v4 add filter allow $_.'MAC Address' $_.Description}
