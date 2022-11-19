@@ -26,6 +26,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ## List of Scripts
 
+- RoughCuts
 - ExtractWirelessProfiles
 - PatchingTools
 - PowerCaffeine
