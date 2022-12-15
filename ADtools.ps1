@@ -83,7 +83,7 @@ switch ($input) {
         Read-Host 'Press 0 and Enter to continue'
         }
 5 {
-    $client=Get-ADComputer -SearchBase “OU=SDDC_C,OU=SDDC,OU=Hood,OU=Installations,DC=nasw,DC=ds,DC=army,DC=mil” -Filter * -Properties * | Sort-Object
+    $client=Get-ADComputer -SearchBase “OU=,DC=,DC=,DC=,DC=” -Filter * -Properties * | Sort-Object
     Write-Host -ForegroundColor Green "List of Machines on the domain"
     Write-Output $client | Sort-Object Operatingsystem | Format-Table Name,Operatingsystem,OperatingSystemVersion,IPv4Address -AutoSize
     Write-Host 'Total: '$ccount"" -ForegroundColor Yellow
