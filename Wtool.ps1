@@ -38,7 +38,8 @@ Write-Host '       LiST OF SCRiPTS' -ForegroundColor Yellow
  21 -  TAKE WiFi PROFiLES & PASSWORDS | iMPORT
  22 -  SEND MESSAGE TO USERS COMPUTER
  23 -  iNSTALL DRiVERS
- 24 -  CAFFEiNE'
+ 24 -  CAFFEiNE' 
+ 
 #Asks the user what function they would like to start using then checks for user input
 Write-Host "SELECT SCRiPT TO EXECUTE" -NoNewline -ForegroundColor Green
 $func = Read-Host -Prompt ' '
@@ -47,6 +48,7 @@ cls
 if ( ([string]::isNullOrEmpty($func))) {
     Write-Host "Toolkit cannot work without input..."
 }
+
 #From here on down unless noted by a comment are functions, these functions will be called if you choose the correct option
 if($func -eq '1'){
 #PROMPTS & LOGS OFF USER
