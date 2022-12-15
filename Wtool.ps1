@@ -736,4 +736,4 @@ if($func -eq '24'){
 
     }
 }
-else {Write-Host "something went wrong :(" }
+else {Write-Warning "something went wrong :(((" }
