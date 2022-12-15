@@ -10,52 +10,45 @@
     FileName:    toolkit.ps1 
     Author:      Tyler Neely 
     Created:     2021-03-27
-    Updated:     2022-06-10
 #>
 
 #Display list of available scripts
-''
-Write-Host ' WORKSTATION TOOLS ' -ForegroundColor Yellow 
-''
-Write-Host ' LIST OF SCRIPTS   '  -ForegroundColor Yellow   
-''
-' (1)   -   PROMPTS & LOGS OFF USER                                                  
- (2)   -   ISSUE INSTANT RESTART                                                   
- (3)   -   RUNS 2 GPUPDATE /FORCE                                               
- (4)   -   PSSESSION INTO MACHINE                                      
- (5)   -   PSEXEC INTO MACHINE                                 
- (6)   -   ENABLE RDP                                                   
- (7)   -   ENABLE PSREMOTING                                                
- (8)   -   GET INSTALLED APPS & INSTALL DATE                                    
- (9)   -   APPLICATION VERSION CHECKER                                     
- (10)  -   GET COMPUTER INFO                          
- (11)  -   WINDOWS UPDATE FIX                                         
- (12)  -   FIREFOX CERTS                                                             
- (13)  -   RE-INSTALL ACTIVCLIENT                                     
- (14)  -   SCCM FIX | REPORT BACK & REPAIR                       
- (15)  -   CREATE LOCAL DoD_ADMIN | CHANGE PW                           
- (16)  -   REGISTRY FIX FOR USB ISSUE                                
- (17)  -   GPUPDATE FIX | RENAME REGISTRY.POL (CAUTION!)               
- (18)  -   FIND LOGGED IN USER 
- (19)  -   GET MACHINES NETWORK STATUS
- (20)  -   TEAMS FIX
- (21)  -   TAKE WiFi PROFILES & PASSWORDS
- (22)  -   SEND MESSAGE TO USERS COMPUTER
- (23)  -   INSTALL DRIVERS
- (24)  -   CAFFEINE
-' 
+Write-Host '       WORKSTATION TOOLS' -ForegroundColor Green 
+Write-Host '       LIST OF SCRIPTS' -ForegroundColor Yellow   
+' 1  -  PROMPTS & LOGS OFF USER                                                  
+ 2  -  ISSUE INSTANT RESTART                                                   
+ 3  -  RUNS 2 GPUPDATE /FORCE                                               
+ 4  -  PSSESSION INTO MACHINE                                      
+ 5  -  PSEXEC INTO MACHINE                                 
+ 6  -  ENABLE RDP                                                   
+ 7  -  ENABLE PSREMOTING                                                
+ 8  -  GET INSTALLED APPS & INSTALL DATE                                    
+ 9  -  APPLICATION VERSION CHECKER                                     
+ 10 -  GET COMPUTER INFO                          
+ 11 -  WINDOWS UPDATE FIX                                         
+ 12 -  FIREFOX CERTS                                                             
+ 13 -  RE-INSTALL ACTIVCLIENT                                     
+ 14 -  SCCM FIX | REPORT BACK & REPAIR                       
+ 15 -  CREATE LOCAL DoD_ADMIN | CHANGE PW                           
+ 16 -  REGISTRY FIX FOR USB ISSUE                                
+ 17 -  GPUPDATE FIX | RENAME REGISTRY.POL (CAUTION!)               
+ 18 -  FIND LOGGED IN USER 
+ 19 -  GET MACHINES NETWORK STATUS
+ 20 -  TEAMS FIX
+ 21 -  TAKE WiFi PROFILES & PASSWORDS
+ 22 -  SEND MESSAGE TO USERS COMPUTER
+ 23 -  INSTALL DRIVERS
+ 24 -  CAFFEINE'
 #Asks the user what function they would like to start using then checks for user input
-Write-Host "INPUT THE NUMBER OF WHICH FUNCTION YOU WOULD LIKE TO RUN" -NoNewline -ForegroundColor Green
-
+Write-Host "SELECT SCRIPT TO EXECUTE" -NoNewline -ForegroundColor Green
 $func = Read-Host -Prompt ' '
 cls
 
 if ( ([string]::IsNullOrEmpty($func))) {
     Write-Host "Toolkit cannot work without input..."
 }
-
 #From here on down unless noted by a comment are functions, these functions will be called if you choose the correct option
-if ($func -eq '1') {
+if($func -eq '1'){
 #PROMPTS & LOGS OFF USER
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -70,8 +63,7 @@ if ($func -eq '1') {
         logoff $sessionId /server:$computer
     }
 }
-
-if ($func -eq '2') {
+if($func -eq '2'){
 #ISSUE INSTANT RESTART
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -82,8 +74,7 @@ if ($func -eq '2') {
         shutdown -r -t 0 -f -m \\$computer
     }
 }
-
-if ($func -eq '3') {
+if($func -eq '3'){
 #RUNS 2 GPUPDATE /FORCE   
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -98,20 +89,17 @@ if ($func -eq '3') {
         else { Write-Host "Cannot reach $computer" }
     }
 }
-
-if ($func -eq '4' ) {
+if($func -eq '4'){
 #PSSESSION INTO MACHINE
     $computer = Read-Host -Prompt 'Input Computer Name for PSSession'
     Enter-PSSession -Computername $computer
 }
-
-if ($func -eq '5') {
+if($func -eq '5'){
 #PSEXEC INTO MACHINE
     $computer = Read-Host -Prompt 'Input Computer Name'
     psexec \\$computer -s cmd /s 
 }
-
-if ($func -eq '6') {
+if($func -eq '6'){
 #ENABLE RDP
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -127,8 +115,7 @@ if ($func -eq '6') {
         else { Write-Host "Cannot reach $computer" }
     }
 }
-
-if ($func -eq '7') { 
+if($func -eq '7'){ 
 #ENABLE PSREMOTING    
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -143,8 +130,7 @@ if ($func -eq '7') {
         else { Write-Host "Cannot reach $computer" }
     }
 }
-
-if ($func -eq '8') { 
+if($func -eq '8'){ 
 #LIST INSTALLED APPS INFO   
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -159,8 +145,7 @@ if ($func -eq '8') {
         else { Write-Host "Cannot reach $computer" }
     }
 }
-
-if ($func -eq '9') {
+if($func -eq '9'){
 #APPLICATION VERSION CHECKER   
     Write-Host "List of Functions: 1. Adobe
                    2. Cisco AnyConnect
@@ -348,8 +333,7 @@ if ($func -eq '9') {
         edge
     }
 }
-
-if($func -eq '10')  { 
+if($func -eq '10'){ 
 #GET COMPUTER INFO 
 #CSV is exported at end of script with computer info
     $computers = Read-Host "Enter a Computer Name or path to file"
@@ -390,8 +374,7 @@ if($func -eq '10')  {
         } 
     }
 }
-
-if ($func -eq '11') { 
+if($func -eq '11'){ 
 #WINDOWS UPDATE FIX  
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -417,7 +400,6 @@ if ($func -eq '11') {
         else { Write-Host "Cannot reach $computer" }
     }
 }
-
 if($func -eq '12'){
 #FIREFOX CERTS
     $computers = Read-Host "Enter a Computer Name or path to file"
@@ -489,8 +471,7 @@ if($func -eq '12'){
         }
     }
 }
-
-if ($func -eq '13') {
+if($func -eq '13'){
 #RE-INSTALL ACTIVCLIENT
 #Link to download newest activclient, now you can maintain this later on
 #https://isdp.nih.gov/isdp/version.action?prodid=127
@@ -530,8 +511,7 @@ if ($func -eq '13') {
     robocopy \\144.101.121.80\temp\Programs\ActivClient\7.1.0.244 \\$computer\c$\temp\activclient /S /E  /V /XO /MT:32 /R:2 /W:10
     Invoke-Command -ComputerName $computer -ScriptBlock $Scriptblock
 }
-
-if ($func -eq '14') {  
+if($func -eq '14'){  
 #SCCM FIX | REPORT BACK & REPAIR  
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -553,8 +533,7 @@ if ($func -eq '14') {
         }
     }
 }
-
-if ($func -eq '15') {  
+if($func -eq '15'){  
 #CREATE LOCAL DoD_ADMIN | CHANGE PW  
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -580,8 +559,7 @@ if ($func -eq '15') {
         }
     }
 }
-
-if ($func -eq '16') {  
+if($func -eq '16'){  
 #REGISTRY FIX FOR USB ISSUE  
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -600,8 +578,7 @@ if ($func -eq '16') {
         else { Write-Host "Cannot reach $computer" }
     }
 }
-
-if ($func -eq '17') {  
+if($func -eq '17'){  
 #GPUPDATE FIX | RENAME REGISTRY.POL (CAUTION!) 
 #Use as last resort! This can ruin the computer
     $computers = Read-Host "Enter a Computer Name or path to file"
@@ -618,8 +595,7 @@ if ($func -eq '17') {
         else { Write-Host "Cannot reach $computer" }
     }
 }
-
-if($func -eq '18') { 
+if($func -eq '18'){ 
 #GET LOGGED IN USER
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\"){
@@ -627,8 +603,7 @@ if($func -eq '18') {
         }
     Get-WmiObject –ComputerName $computer –Class Win32_ComputerSystem | Select-Object UserName
 }
-
-if($func -eq '19') {
+if($func -eq '19'){
 #GET MACHINES NETWORK STATUS
     $computers = Read-Host "Enter a Computer Name or path to file"
         if($computers -match "\\") {
@@ -660,8 +635,7 @@ if($func -eq '19') {
         }    
     }
 }
-
-if($func -eq '20') {
+if($func -eq '20'){
 #Quick Microsoft Teams Fix - clears all Teams cache
     $Computer = Read-Host "Enter Computer Name"
     $TargetUser = Read-Host "Enter user name as it appears in c:\users\"
@@ -676,8 +650,7 @@ if($func -eq '20') {
     Invoke-Command -ComputerName $Computer -ScriptBlock {Remove-Item C:\Users\$TargetUser\AppData\Roaming\Microsoft\Teams\tmp -Force -Recurse}
     Write-Host "Restart Teams"
 }
-
-if ($func -eq '21') {
+if($func -eq '21'){
 #Import Wireless from one computer to another. The passwords can be viewed in the $lists files.
     $targetComputer = Read-Host "Type the name of the source computer"
     $newComputer = Read-Host "Type the name of the target computer"
@@ -721,14 +694,12 @@ if ($func -eq '21') {
     }
     #$removelist
 }
-
-if ($func -eq '22') {
+if($func -eq '22'){
     $Computer = read-host "Input computer name "
     $msg = read-host "Enter your message "
     Invoke-WmiMethod -Path Win32_Process -Name Create -ArgumentList "msg * $msg" -ComputerName $Computer
-}
-  
-if ($func -eq '23') {
+}  
+if($func -eq '23'){
 #Install Drivers on remote machine. Use '\\' if using a remote driver file
     $driversPath = Read-Host "Input path to driver file"
     $computers = Read-Host "Enter a Computer Name or path to file"
@@ -748,8 +719,7 @@ if ($func -eq '23') {
         }
     }
 }
-
-if ($func -eq '24') {
+if($func -eq '24'){
 #CAFFEINE. Computer will never go to sleep with this script 
     $wsh = New-Object -ComObject WScript.Shell
     while (1) {   
@@ -764,5 +734,4 @@ if ($func -eq '24') {
 
     }
 }
-
 else {Write-Host "something went wrong :(" }
