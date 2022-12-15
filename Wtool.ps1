@@ -2,10 +2,8 @@
 .DESCRiPTiON 
     Script for administrators to run various functions on remote computers. 
     Explanation of each function is given in the code or in the output.
-
 .LOCATiON
     \\SDDC05PS842DS01\C$\scripts\toolkit\Wtools.ps1
-   
 .NOTES 
     FileName:    toolkit.ps1 
     Author:      Tyler Neely 
