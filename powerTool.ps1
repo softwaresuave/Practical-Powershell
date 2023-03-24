@@ -33,7 +33,7 @@ Write-Host '       LiST OF SCRiPTS' -ForegroundColor Yellow
  18 -  FiND LOGGED iN USER 
  19 -  COMPUTER CONNECTIVITY REPORT
  20 -  FiREFOX CERTS
- 21 -  TAKE WiFi PROFiLES & PASSWORDS | iMPORT
+ 21 -  TAKE WiFi PROFiLES & PASSWORDS | WPA2 EXPLOiT
  22 -  SEND MESSAGE TO USERS COMPUTER
  23 -  iNSTALL DRiVERS
  24 -  CAFFEiNE'
@@ -165,7 +165,7 @@ if($func -eq '9'){
                 User                  = $null
                 Error                 = $null
             }
-    
+   
             if (Test-Connection -ComputerName $computer -Count 1 -Quiet){
                 $output.isOnline = $true
                 $MAC = invoke-Command -ComputerName $computer {(getmac /FO TABLE /NH) -ne '' -replace '\s.*$' -join ' / '}
