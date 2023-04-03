@@ -1,5 +1,5 @@
 ## This collection of powershell scripts contains tools used mainly for system administration. 
-## Welcome to the powershell playground.
+## Welcome to the powershell playground...
 
 -proper footwear required.
 
