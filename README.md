@@ -20,12 +20,12 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ## List of Scripts
 
-- RoughCuts
-- ExtractWirelessProfiles
-- PatchingTools
-- PowerCaffeine
+- RoughCuts(misc scripts)
+- extractWiFiProfiles | WPA2 Exploit
+- patchingTools
+- powerCaffeine
 - ADtools
-- TeamsFix
+- teamsFix
 - wTools
 - gui (template)
 - thefuck
