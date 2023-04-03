@@ -27,6 +27,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 - PowerCaffeine
 - ADtools
 - TeamsFix
-- powerTools
+- wTools
 - gui (template)
 - thefuck
