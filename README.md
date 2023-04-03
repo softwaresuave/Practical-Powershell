@@ -1,9 +1,9 @@
-# The Powershell Playground contains a variety of Powershell programs for System Administrators!
+# this collection contains a variety of powershell tools, mainly for system administration, welcome to the powershell playground
 
 Tools for administrators to run various functions from a machine. Making your job easier, automating cumbersome processes.
 
 
-An explanation of each script is at the top of each script or commented in the code.
+An explanation of each script is given in the output or commented in the code.
 
 Most of these scripts are designed to run on remote machines that have their computer name or ip address listed in a computers.txt file, which is defined by the $Computers variable. <br/>
 <br/>
