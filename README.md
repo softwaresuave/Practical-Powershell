@@ -11,7 +11,6 @@ Most of these scripts are designed to run on remote machines that have their com
 <br/>
 Enable scripting on your machine by entering the below command in the PS console before execution: <br/> 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
 <br/>
 
 ### SUA SPONTE
