@@ -8,7 +8,6 @@ An explanation of each script is given in the output or commented in the code.
 Most of these scripts are designed to run on remote machines that have their computer name or ip address listed in a computers.txt file, which is defined by the $Computers variable. <br/>
 <br/>
 <br/>
-<br/>
 Enable scripting on your machine by entering the below command in the PS console before execution: <br/> 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 <br/>
