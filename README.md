@@ -3,8 +3,6 @@
 
 -proper footwear required.
 
-Tools for administrators to run various functions from a machine. Making your job easier, automating cumbersome processes.
-
 An explanation of each script is given in the output or commented in the code.
 
 Most of these scripts are designed to run on remote machines that have their computer name or ip address listed in a computers.txt file, which is defined by the $Computers variable. <br/>
