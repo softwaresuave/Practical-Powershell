@@ -25,6 +25,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 - patchingTools
 - powerCaffeine
 - ADtools
+- networkReport
 - teamsFix
 - wTools
 - gui (template)
