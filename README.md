@@ -1,11 +1,12 @@
-## This collection of powershell scripts contains tools used mainly for system administration. 
+## This repo contains a collection of powershell scripts.
+## Most of these tools are intended to make sys admins' jobs easier.
 ## Welcome to the powershell playground...
 
 -proper footwear required.
 
 An explanation of each script is given in the output or commented in the code.
 
-Most of these scripts are designed to run on remote machines that have their computer name or ip address listed in a computers.txt file, which is defined by the $Computers variable. <br/>
+Most of these scripts are designed to run on remote machines. The target hosts are defined by the $computers variable, which collects the hostnames/ ips from a text file, at the beginning of each script.  <br/>
 <br/>
 <br/>
 Enable scripting on your machine by entering the below command in the PS console before execution: <br/> 
