@@ -3,8 +3,7 @@ There is a lot going on here...
 
 
 An explanation of each script is given in the output or commented in the code.
-
-the $computer variable declares the target machine(s) to execute the script on, in most instances. 
+The $computer variable declares the target machine(s) in most of these scripts.
 <br/>
 <br/>
 
@@ -18,7 +17,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 <br/>
 <div>
 ## AVAILABLE TOOLS
-__________________________________________
+'__________________________________________
 | _______________________________________ |
 |                                         |
 |  . extractWiFiProfiles | WPA2 Exploit   |
@@ -32,5 +31,5 @@ __________________________________________
 |  . theFck                               |
 |                                         |
 |_______________________________________ _|
-
+'
 </div>
