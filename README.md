@@ -2,10 +2,13 @@
 There is a lot going on here...
 
 
+
+
 An explanation of each script is given in the output or commented in the code.
 The $computer variable declares the target machine(s) in most of these scripts.
 <br/>
 <br/>
+
 
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
@@ -15,9 +18,9 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### SUA SPONTE
 [Latin, Of his or her or its own will; voluntarily.]
 <br/>
-<div>
+"
 ## AVAILABLE TOOLS
-'__________________________________________
+__________________________________________
 | _______________________________________ |
 |                                         |
 |  . extractWiFiProfiles | WPA2 Exploit   |
@@ -31,5 +34,5 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 |  . theFck                               |
 |                                         |
 |_______________________________________ _|
-'
-</div>
+
+"
