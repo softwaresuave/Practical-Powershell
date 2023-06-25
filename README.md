@@ -1,12 +1,11 @@
-
 ## Welcome to the powershell playground...
+
 
 An explanation of each script is given in the output or commented in the code.
 
-the $computer variable declares the target machine(s) to execute the script on, in most instances. <br/>
+the $computer variable declares the target machine(s) to execute the script on, in most instances. 
 <br/>
 <br/>
-<br/> 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 <br/>
 
