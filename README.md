@@ -22,18 +22,18 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ## AVAILABLE TOOLS
 __________________________________________
-| _______________________________________ |
-|                                         |
-|  . extractWiFiProfiles | WPA2 Exploit   |
-|  . patchingTools                        |
-|  . powerCaffeine                        |
-|  . ADtools                              |
-|  . networkReport                        |
-|  . teamsFix                             |
-|  . wTools                               |
-|  . guiTemplate                          |
-|  . theFck                               |
-|                                         |
-|_______________________________________ _|
 
-"
+                                        
+|   extractWiFiProfiles | WPA2 Exploit   
+|   patchingTools                        
+|   powerCaffeine                        
+|   ADtools                              
+|   networkReport                        
+|   teamsFix                             
+|   wTools                               
+|   guiTemplate                          
+|   theFck                               
+|                                         
+|_______________________________________ _
+
+
