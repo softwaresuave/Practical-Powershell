@@ -1,15 +1,12 @@
-## This repo contains a collection of powershell scripts.
-## Most of these tools are intended to make sys admins' jobs easier.
-## Welcome to the powershell playground...
 
--proper footwear required.
+## Welcome to the powershell playground...
 
 An explanation of each script is given in the output or commented in the code.
 
-Most of these scripts are designed to run on remote machines. The target hosts are defined by the $computers variable, which collects the hostnames/ ips from a text file, at the beginning of each script.  <br/>
+the $computer variable declares the target machine(s) to execute the script on, in most instances. <br/>
 <br/>
 <br/>
-Enable scripting on your machine by entering the below command in the PS console before execution: <br/> 
+<br/> 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 <br/>
 
