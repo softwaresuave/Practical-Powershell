@@ -16,7 +16,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### SUA SPONTE
 [Latin, Of his or her or its own will; voluntarily.]
 <br/>
-
+<div>
 ## AVAILABLE TOOLS
 __________________________________________
 | _______________________________________ |
@@ -32,3 +32,5 @@ __________________________________________
 |  . theFck                               |
 |                                         |
 |_______________________________________ _|
+
+</div>
