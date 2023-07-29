@@ -4,7 +4,6 @@
     Installing the Active Direcory module is required to run ADtools.
 
 .LOCATION
-    \\SDDC05PS842DS01\C$\scripts\toolkit\Wtools.ps1
    
 .NOTES 
     FileName:    toolkit.ps1 
