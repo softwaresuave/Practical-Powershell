@@ -404,23 +404,16 @@ if($func -eq '12'){
 #Quick Microsoft Teams Fix - clears all Teams cache
 $computerName = "REMOTE_COMPUTER_NAME"
 
-  # Define the command to clear the Teams cache for each user
 $clearCacheCommand = {
     $cacheFolderPath = "C:\Users"
-
-    # Get the list of user folders
     $userFolders = Get-ChildItem -Path $cacheFolderPath -Directory -Exclude "Default*", "Public"
-
-    # Loop through each user folder
     foreach ($userFolder in $userFolders) {
         $cacheFolderPath = Join-Path -Path $userFolder.FullName -ChildPath "AppData\Roaming\Microsoft\Teams\Cache"
-
         # Clear Teams cache for the current user
         $cacheFiles = Get-ChildItem -Path $cacheFolderPath -File -Force
         foreach ($file in $cacheFiles) {
             Remove-Item -Path $file.FullName -Force
         }
-
         Write-Host "Teams cache cleared for user $($userFolder.Name)."
     }
 }
@@ -428,9 +421,7 @@ $clearCacheCommand = {
 # Execute the command on the remote computer
 Invoke-Command -ComputerName $computerName -ScriptBlock $clearCacheCommand
  
-
-
-    <#$Computer = Read-Host "Enter Computer Name"
+<#$Computer = Read-Host "Enter Computer Name"
     $TargetUser = Read-Host "Enter user name as it appears in c:\users\"
     invoke-Command -ComputerName $Computer -ScriptBlock {Stop-Process -Name "Teams"}
     invoke-Command -ComputerName $Computer -ScriptBlock {Remove-item C:\Users\$TargetUser\AppData\Roaming\Microsoft\Teams\Application Cache -Force -Recurse}
