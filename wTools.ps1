@@ -763,4 +763,4 @@ if($func -eq '24'){
 
     }
 }
-else {Write-Warning "something went wrong :(((" }
+else {Write-Warning "something went wrong :(" }
