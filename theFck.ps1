@@ -7,7 +7,9 @@
     8/10/2022
 #>
 
-Function oops {
+Function ooops {
     Undo-Transaction 
     }
-Set-Alias -Name fuck -Value oops 
+Set-Alias -Name fuck -Value ooops 
+
+
