@@ -1,5 +1,5 @@
 ## Welcome to the powershell playground...
-There is a lot going on here...
+
 
 <br/>
 
