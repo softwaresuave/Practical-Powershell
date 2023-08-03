@@ -8,8 +8,6 @@ The $computer variable declares the target machine(s) in most of these scripts.
 
 <br/>
 
-
-
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 <br/>
@@ -22,7 +20,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ## AVAILABLE TOOLS
 __________________________________________
-__________________________________________
+
                                         
 o    extractWiFiProfiles | WPA2 Exploit   
 o    patchingTools                        
@@ -32,7 +30,7 @@ o    networkReport
 o    wTools                               
 o    guiTemplate                          
 o    wtf                            
-_________________________________________                                         
+                                    
 _________________________________________
 
 
