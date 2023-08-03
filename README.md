@@ -26,13 +26,12 @@ __________________________________________
                                         
 o    extractWiFiProfiles | WPA2 Exploit   
 o    patchingTools                        
-o    powerCaffeine                        
-o    ADtools                              
-o    networkReport                        
-o    teamsFix                             
+o    Caffeine                        
+o    serverTools                              
+o    networkReport                                                   
 o    wTools                               
 o    guiTemplate                          
-o    theFck                               
+o    wtf                            
 _________________________________________                                         
 _________________________________________
 
