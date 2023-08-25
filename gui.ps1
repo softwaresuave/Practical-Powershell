@@ -37,4 +37,4 @@ $main_form.Controls.Add($Button)
 
 
 
-$main_form.ShowDialog()owDialog()
+$main_form.ShowDialog()
