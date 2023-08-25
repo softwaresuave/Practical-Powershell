@@ -2,18 +2,14 @@
 .DESCRIPTION 
     Script for administrators to run various functions on remote computers. 
     Installing the Active Direcory module is required to run ADtools.
-
-.LOCATION
    
 .NOTES 
-    FileName:    toolkit.ps1 
     Author:      Tyler Neely 
     Created:     2021-03-27
     Updated:     2022-06-10
 #>
 
-#Display list of scripts/ functions available
-
+#Display available functions
 Write-Host '     ' "WORKSTATION TOOLS" -ForegroundColor Yellow -NoNewline
 Write-Host '              LIST OF SCRIPTS               '"ACTIVE DIRECTORY TOOLS" -ForegroundColor Yellow
 '' 
@@ -36,14 +32,14 @@ Write-Host '              LIST OF SCRIPTS               '"ACTIVE DIRECTORY TOOLS
  (17)  GPupdate Fix/ Rename registry.pol(caution)             (35)  AD Computer Audit     
  " 
 
-#Asks the user what function they would like to start using then checks for user input
+#check for input
 Write-Host "INPUT THE NUMBER OF WHICH FUNCTION YOU WOULD LIKE TO RUN" -NoNewline -ForegroundColor Green
 $func = Read-Host -Prompt ' '
 cls
 if ( ([string]::IsNullOrEmpty($func))) {
     Write-Host "Toolkit cannot work without input..."
 }
-#From here on down until noted by next comment are functions, these functions will be called if you chose the correct option
+#From here on down until noted by next comment are functions, function will execute if its number is entered
 function softwarecheck {
     Write-Host "List of Functions: 1. Adobe
                    2. Cisco AnyConnect
@@ -242,7 +238,7 @@ function softwarecheck {
 }
 
 function activclientinstall($computer) {
-    #Link to download newest activclient, now you can maintain this later on
+    #Link to download newest activclient, can maintain this later on
     #https://isdp.nih.gov/isdp/version.action?prodid=127
     Write-host "Starting on $computer"
     $Scriptblock = {
@@ -252,7 +248,6 @@ function activclientinstall($computer) {
             $_.Name -match "ActivClient" 
         }
 
-        #$app
         $app.Uninstall()
         Write-Host "Uninstall finished, starting install"
         msiexec.exe /i "c:\temp\activclient\activclient7.1\Product\ACx647.1.msi" /quiet /norestart
@@ -296,7 +291,6 @@ function ADUserAudit {
     }
 
     c:\temp\gpo\ADAudit.csv
-
 }
 
 function ADCompAudit {
@@ -354,7 +348,6 @@ function ADCompAudit {
         Add-Content $ADCompAuditPath "ComputerName, AD_Description, GPO_Description, FixedWith"
         $adcomputers = Get-ADComputer -SearchBase “OU=SDDC_C,OU=SDDC,OU=Hood,OU=Installations,DC=nasw,DC=ds,DC=army,DC=mil” -Filter * -Properties * | Sort-Object
         foreach ($adcomputer in $adcomputers) {
-            #$adcomputer.name
             $computer = $adcomputer.name
             $deleteddescription = $null
             $Comp = Get-ADComputer -Identity $computer 

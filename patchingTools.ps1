@@ -17,7 +17,7 @@ $func = Read-Host -Prompt 'input number of function to run'
 
 if ($func -eq '1' ){
     $computer = Read-Host "Enter a computer name"
-    $UserLogged = Get-WmiObject –ComputerName $computer –Class Win32_ComputerSystem | Select-Object UserName
+    $UserLogged = Get-WmiObject -ComputerName $computer -Class Win32_ComputerSystem | Select-Object UserName
     Write-Host "$UserLogged is logged into $computer"
     }
 if ($func -eq '2'){

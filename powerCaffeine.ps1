@@ -1,8 +1,8 @@
 <#
 .DESCRIPTION
-    SENDS THE KEYSTROKE SHIFT + F15 EVERY 60 SECONDS INDEFINITELY.
-    COMPUTER WILL NEVER GO TO SLEEP. SCREEN WILL NEVER LOCK & SCREENSAVER WILL NEVER APPEAR.
-    THIS SCRIPT WILL KEEP YOUR SYSTEM AWAKE AND COMBAT INACTIVITY/ TIMEOUT POLICIES
+    Computer will never go to sleep while this script is running. 
+    A harmless keystroke is simulated every minute.
+    Keeps computer active, repelling the screen saver etc.
 .AUTHOR
     TYLER NEELY
 .CREATED
