@@ -1,6 +1,6 @@
 ## Welcome to the powershell playground...
 
-A variety of powershell scripts for admins 
+Contains a variety of powershell scripts for admins.
 <br/>
 
 An explanation of each script is given in the output or commented in the code.
