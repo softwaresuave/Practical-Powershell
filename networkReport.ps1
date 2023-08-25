@@ -1,7 +1,6 @@
 ﻿#SCRIPT THAT CREATES CSV REPORT OF ALL MACHINES NETWORK STATUS
-#ADD COMPUTER NAMES TO TXT FILE IN LOCATION BELOW
 
-$computers = Get-Content C:\temp\Allcomputers.txt
+$computers = Read-Host "Enter location of computers.txt file" 
 foreach($computer in $computers){
     try{
         [pscustomobject]$output = @{

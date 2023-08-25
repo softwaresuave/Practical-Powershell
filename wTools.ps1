@@ -27,13 +27,13 @@ Write-Host '       LiST OF SCRiPTS' -ForegroundColor Yellow
  12 -  TEAMS FIX                                                             
  13 -  RE-iNSTALL ACTiVCLiENT                                     
  14 -  SCCM FiX | REPORT BACK & REPAiR                       
- 15 -  CREATE LOCAL DoD_ADMiN | CHANGE PW                           
+ 15 -  CREATE LOCAL ADMiN | CHANGE PW                           
  16 -  REGiSTRY FiX FOR USB iSSUE                                
  17 -  GPUPDATE FiX | RENAME REGiSTRY.POL (CAUTiON!)               
  18 -  FiND LOGGED iN USER 
  19 -  COMPUTER CONNECTIVITY REPORT
  20 -  FiREFOX CERTS
- 21 -  TAKE WiFi PROFiLES & PASSWORDS | WPA2 EXPLOiT
+ 21 -  EXTRACT WiFi PROFiLES
  22 -  SEND MESSAGE TO USERS COMPUTER
  23 -  iNSTALL DRiVERS
  24 -  CAFFEiNE'
