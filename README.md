@@ -16,13 +16,11 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 __________________________________________
 
                                         
-o    WiFiVulture   
-o    patchingTools                        
+o    WiFiVulture                           
 o    Caffeine                        
 o    serverTools                              
 o    networkReport                                                   
-o    wTools                               
-o    guiTemplate                          
+o    wTools                                                         
 o    wtf                            
                                     
 _________________________________________
