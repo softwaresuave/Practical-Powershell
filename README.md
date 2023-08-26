@@ -11,7 +11,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 <br/>
 
-<br/>
 
 ## AVAILABLE TOOLS
 __________________________________________
