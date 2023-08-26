@@ -11,7 +11,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 <br/>
 
-
 ## AVAILABLE TOOLS
 __________________________________________
 
@@ -21,7 +20,8 @@ o    Caffeine
 o    serverTools                              
 o    networkReport                                                   
 o    wTools                                                         
-o    wtf                            
+o    wtf  
+o    guiTemplate
                                     
 _________________________________________
 
