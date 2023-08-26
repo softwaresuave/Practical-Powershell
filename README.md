@@ -16,7 +16,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 __________________________________________
 
                                         
-o    extractWiFiProfiles   
+o    WiFiVulture   
 o    patchingTools                        
 o    Caffeine                        
 o    serverTools                              
