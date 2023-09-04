@@ -15,7 +15,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 __________________________________________
 
                                         
-o    WiFiHound - steal info/ passwords of known WiFi networks from a device.                         
+o    WiFiHound - extract info/ passwords of known WiFi networks from a device.                         
 o    Caffeine - keep your computer awake                        
 o    serverTools - toolkit for servers and Active Directory                              
 o    networkReport - generates a ping sweep report                                                   
