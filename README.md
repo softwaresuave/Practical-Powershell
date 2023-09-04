@@ -15,13 +15,13 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 __________________________________________
 
                                         
-o    WiFiHound                         
-o    Caffeine                        
-o    serverTools                              
-o    networkReport                                                   
-o    wTools                                                         
-o    wtf  
-o    guiTemplate
+o    WiFiHound - steal info/ passwords of known WiFi networks from a device.                         
+o    Caffeine - keep your computer awake                        
+o    serverTools - toolkit for servers and Active Directory                              
+o    networkReport - generates a ping sweep report                                                   
+o    wTools - toolkit for Windows workstations                                                          
+o    wtf - genius script for correcting mistakes in the shell  
+o    guiTemplate - template for powershell GUIs
                                     
 _________________________________________
 
