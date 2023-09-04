@@ -6,7 +6,7 @@ Contains a variety of powershell scripts.
 An explanation of each script is given in the output or commented in the code.
 
 <br/>
-
+To enable scripting:
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 <br/>
@@ -15,7 +15,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 __________________________________________
 
                                         
-o    WiFiVulture                           
+o    WiFiHound                         
 o    Caffeine                        
 o    serverTools                              
 o    networkReport                                                   
