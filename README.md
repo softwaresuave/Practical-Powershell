@@ -1,6 +1,6 @@
 ## Welcome to the powershell playground...
 
-Contains a variety of powershell scripts.
+Collection of powershell scripts that are seperate from one another.
 <br/>
 
 An explanation of each script is given in the output or commented in the code.
