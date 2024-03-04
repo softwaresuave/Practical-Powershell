@@ -7,7 +7,6 @@ An explanation of each script is given in the output or commented in the code.
 
 
 If scripting is disabled on your system run the following powershell command:
-
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 <br/>
