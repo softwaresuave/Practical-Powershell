@@ -6,7 +6,8 @@ This is a collection of powershell scripts that are seperate from one another.
 An explanation of each script is given in the output or commented in the code.
 
 
-To enable scripting:
+If scripting is disabled on your system run the following powershell command:
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 <br/>
